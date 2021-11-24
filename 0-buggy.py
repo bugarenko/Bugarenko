@@ -1,16 +1,8 @@
-def sum_numbers(x, y):
-    total = x + y
+def sum_list(nums_list):
+    total = 0
+    for i in nums_list:
+        total = total + i
     return total
 
 
-first_num = 234
-second_num = 4324
-
-print(sum_numbers(first_num, second_num))
-
-
-
-
-
-
-
+print(sum_list([3232, 645]))
